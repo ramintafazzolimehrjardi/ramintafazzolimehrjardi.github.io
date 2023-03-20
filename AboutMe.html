@@ -21,22 +21,20 @@
     <header class="row p-3">
       <div class="col">
         <h4>Ramin Tafazzoli Mehrjardi</h4>
-        <nav class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <div class="btn-group">
+          <button type="button" class="btn btn-primary px-3 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
             More Info
-          </a>
+          </button>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="Education.html">Education</a></li>
             <li><a class="dropdown-item" href="LOPO.html">List of Projects</a></li>
             <li><a class="dropdown-item" href="LOPU.html">List of Publications</a></li>
-            <li>
-              <hr class="dropdown-divider">
-            </li>
+            <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="AboutMe.html">About Me</a></li>
           </ul>
-        </nav>
-      </div>
-      <div class="col mt-3">
+        </div>
+        </div>
+      <div class="col pt-3">
         <ul class="nav justify-content-end">
           <li class="nav-item">
             <a class="btn btn-primary mybutton" aria-current="page" href="index.html">Home</a>
@@ -51,15 +49,26 @@
         <!-- Introduction to the website -->
         <div class="intro my-2 p-2">
           <h3 class="px-3 text-center fw-bold text-decoration-underline">About Me</h3>
-          <p class="mx-4 mt-4 text-justify"> 
-          Ramin Tafazzoli Mehrjardi (Graduate Student Member, IEEE) was born in Tehran, Iran, in 1990. He received a B.S. degree in electrical engineering from Shahid Beheshti University, Tehran, in 2014 and an M.E. degree in electrical engineering from Texas A&M University, College Station, TX, USA, in 2017, where he is currently pursuing a Ph.D. degree.
-        </p>
+          <div class="row mx-3">
+            <div class="col-3">
+              <img src="images/My-Pic.png" alt="Ramin Tafazzoli Mehrjardi Pic" style="max-width: 90%; max-height: 100%;">
+            </div>
+            <div class="col-9">
+              <p class="mx-1 mt-4 text-justify"> 
+                My name is Ramin Tafazzoli Mehrjardi (Student Member, IEEE), and I am a research assistant in "Advanced Power Electronics and Drive Systems Lab."
+            </p>
+              <p class="mx-1 text-justify">
+                He received a B.S. degree in electrical engineering from Shahid Beheshti University, Tehran, in 2014 and an M.E.  in electrical engineering from Texas A&M University, College Station, TX, USA, in 2017. Currently, I am a Ph.D. candidate at Texas A&M University. My expected graduation date is May 2023.
+            </p>
+
+            </div>
+          </div>
+          <p class="mx-4 mt-3 text-justify">
+            I joined the Advanced Power Electronics and Drive Systems Group at Texas A&M University in 2017. My research interests include designing motor drives, power electronics, hybrid and electric vehicles, wind energy, and sustainable energy production.
+          </p>
           <p class="mx-4 text-justify">
-          He joined the Advanced Power Electronics and Drive Systems Group at Texas A&M University in 2017. His research interests include designing motor drives, power electronics, hybrid and electric vehicles, wind energy, and renewable energy applications.
-        </p>
-        <p class="mx-4 text-justify">
-         He has 10+ peer-reviewed publications (h-Index: 7) in reputable venues, including IEEE Transactions on Industrial Electronics and IEEE Transactions on Proceedings (impact factor: 14.91). Furthermore, He has contributed in two book chapters on hybrid electric powertrains and hybrid energy storage systems for transportation applications
-        </p>
+            I have 10+ peer-reviewed publications (h-Index: 7) in reputable venues, including IEEE Transactions on Industrial Electronics and IEEE Transactions on Proceedings (impact factor: 14.91). Furthermore, I have contributed to two book chapters on hybrid electric powertrains and hybrid energy storage systems for transportation applications.
+          </p>
         </div>
 
 
@@ -99,7 +108,6 @@
 </div>
 
 
-  </main>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>

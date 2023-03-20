@@ -1,13 +1,15 @@
-body{
+body
+{
     background-image: linear-gradient(rgb(2, 122, 52), rgb(0, 255, 191));
     font-family: 'Times New Roman', Times, serif;
 }
-.container{
+.container
+{
     max-width: 1024px;
     height: 100%;
 }
-.intro{
-
+.intro
+{
     color: white;
     background-color: gray;
     border-radius: 10px 10px;
@@ -29,25 +31,20 @@ header{
     border-color: black;
 }
 
-footer{
+footer
+{
     color: white;
     background-color: gray;
     border-radius: 10px 10px;
 }
 
-.contact{
-    background-color: gray;
-    border-radius: 10px 10px;
-}
+
 
 .text-justify {
     text-align: justify;
     text-indent:16px;
   }
 
-p{
-    font-size: 1rem;
-  }
 
   .section{
     background-color: white;
